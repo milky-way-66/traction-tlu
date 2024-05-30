@@ -10,6 +10,7 @@ import { secure } from "express-oauth-jwt";
 import { body, validationResult } from "express-validator";
 import { createRemoteJWKSet } from "jose";
 import { NextFunction } from "express";
+import { log } from "console";
 
 const jwksService = createRemoteJWKSet(
   new URL(config.get("server.oidc.jwksUri"))
@@ -18,6 +19,21 @@ const jwksService = createRemoteJWKSet(
 export const router = express.Router();
 
 router.use(express.json());
+
+// Protected reservation endpoint
+router.get(
+  "/heath-check",
+  async (req: any, res: Response, next: NextFunction) => {
+    try {
+      const result = 'ok';
+      res.status(200).send(result);
+    } catch (error) {
+      console.log(error);
+      next(error);
+    }
+  }
+);
+
 
 // For the secured innkeepr OIDC login request to verify the token and get a token from Traction
 router.get(
