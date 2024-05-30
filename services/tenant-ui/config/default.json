@@ -1,6 +1,6 @@
 {
   "frontend": {
-    "tenantProxyPath": "http://localhost:8032",
+    "tenantProxyPath": "https://traction-sandbox-tenant-proxy.apps.silver.devops.gov.bc.ca",
     "apiPath": "api/",
     "basePath": "/",
     "showDeveloper": true,
@@ -22,17 +22,17 @@
       "extraQueryParams": {}
     },
     "ux": {
-      "appTitle": "Traction Tenant Console",
+      "appTitle": "Thang Long University",
       "appInnkeeperTitle": "Traction Innkeeper Console",
       "sidebarTitle": "TRACTION",
       "copyright": "",
       "owner": "",
       "coverImageCopyright": "Photo by Kristoffer Fredriksson on StockSnap",
       "aboutBusiness": {
-        "title": "Government of British Columbia",
-        "linkTitle": "BC Digital Trust Service Agreement",
-        "link": "https://github.com/bcgov/bc-vcpedia/blob/main/agents/bc-gov-agent-service.md",
-        "imageUrl": "/img/bc/bc_logo.png"
+        "title": "Thang Long University",
+        "linkTitle": "Thang Long University",
+        "link": "https://thanglong.edu.vn",
+        "imageUrl": "/img/logo/tlu-logo-white.jpg"
       },
       "infoBanner": {
         "message": "",
