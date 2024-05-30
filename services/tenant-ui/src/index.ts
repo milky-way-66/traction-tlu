@@ -9,7 +9,7 @@ const PORT: number = parseInt(config.get("server.port") as string, 10);
 const APIROOT: string = config.get("server.apiPath");
 const STATIC_FILES_PATH: string = config.get("server.staticFiles");
 
-import history from "connect-history-api-fallback";
+var history = require('connect-history-api-fallback');
 
 const app = express();
 app.use(history());
@@ -22,6 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/favicon.ico", (_, res) => {
   res.redirect("/favicon.ico");
 });
+
 app.use("/", express.static(path.join(__dirname, STATIC_FILES_PATH)));
 
 // Since the server config can have important secret values in, you must opt-in
@@ -44,6 +45,10 @@ app.use("/config", (_, res, next) => {
     next(err);
   }
 });
+
+app.get('/hello-world', (req, res) => {
+  res.send('Hello World!')
+})
 
 // This service's api endpoints
 app.use(APIROOT, router);
