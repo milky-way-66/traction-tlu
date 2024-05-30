@@ -14,7 +14,7 @@ const config = {
       label: 'IDIR',
     },
     ux: {
-      appTitle: 'Traction Tenant Console',
+      appTitle: 'Thang Long University',
       appInnkeeperTitle: 'Traction Innkeeper Console',
       sidebarTitle: 'TRACTION',
       copyright: '',

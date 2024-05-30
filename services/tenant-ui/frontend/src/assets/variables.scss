@@ -1,7 +1,7 @@
 // Theme variables
-$tenant-ui-primary-color: #003366; // Main color blocks
+$tenant-ui-primary-color: #4793AF; // Main color blocks
 $tenant-ui-text-on-primary: #ffffff;
-$tenant-ui-secondary-color: #3c5973; // Buttons, actions
+$tenant-ui-secondary-color: #DD5746; // Buttons, actions
 $tenant-ui-accent-color: #fcba19;
 $tenant-ui-secondary-active: darken( $tenant-ui-secondary-color, 10% );
 $tenant-ui-shadow: lighten( $tenant-ui-secondary-color, 30% );
@@ -33,6 +33,6 @@ $tenant-ui-status-amber-color: #87623D;
 $tenant-ui-status-red-color: #C94040;
 $tenant-ui-status-blue-color: #485773;
 
-// Innkeeper 
+// Innkeeper
 $innkeeper-ui-primary-color: #30403e;
-$innkeeper-ui-text-on-primary: #ffffff; 
+$innkeeper-ui-text-on-primary: #ffffff;

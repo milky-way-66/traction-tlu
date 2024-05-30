@@ -1,7 +1,7 @@
 <template>
   <form @submit.prevent="handleSubmit(!v$.$invalid)">
     <TabView v-model:active-index="activeTab" class="tab-container">
-      <TabPanel header="Wallet Credentials">
+      <TabPanel :header="$t('common.walletCredential')">
         <div class="field mt-5 w-full">
           <!-- ID -->
           <label
@@ -44,53 +44,6 @@
           />
           <small v-if="v$.walletSecret.$invalid && submitted" class="p-error">{{
             v$.walletSecret.required.$message
-          }}</small>
-        </div>
-      </TabPanel>
-
-      <TabPanel header="API Key">
-        <div class="field mt-5 w-full">
-          <!-- Tenant ID -->
-          <label
-            for="tenant-id"
-            :class="{ 'p-error': v$.tenantId.$invalid && submitted }"
-          >
-            {{ $t('common.tenantId') }}
-          </label>
-          <InputText
-            id="tenant-id"
-            v-model="v$.tenantId.$model"
-            type="text"
-            option-label="label"
-            autocomplete="tenant-id"
-            name="walledId"
-            autofocus
-            class="w-full"
-          />
-          <small v-if="v$.tenantId.$invalid && submitted" class="p-error">{{
-            v$.tenantId.required.$message
-          }}</small>
-        </div>
-
-        <div class="field mt-5 w-full">
-          <!-- API Key -->
-          <label
-            for="api-key"
-            :class="{ 'p-error': v$.apiKey.$invalid && submitted }"
-          >
-            {{ $t('common.apiKey') }}
-          </label>
-          <InputText
-            id="api-key"
-            v-model="v$.apiKey.$model"
-            type="password"
-            option-label="label"
-            autocomplete="api-key"
-            name="apiKey"
-            class="w-full"
-          />
-          <small v-if="v$.apiKey.$invalid && submitted" class="p-error">{{
-            v$.apiKey.required.$message
           }}</small>
         </div>
       </TabPanel>
