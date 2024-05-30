@@ -68,7 +68,7 @@
     <Column
       :sortable="true"
       field="connection"
-      header="Connection"
+      :header="$t('common.connection')"
       filter-field="connection"
       :show-filter-match-modes="false"
     >
@@ -105,7 +105,7 @@
     <Column
       :sortable="true"
       field="state"
-      header="Status"
+      :header="$t('common.status')"
       filter-field="state"
       :show-filter-match-modes="false"
     >

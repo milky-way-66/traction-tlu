@@ -58,7 +58,7 @@
       <Column
         :sortable="true"
         field="credential_definition_id"
-        header="Credential Definition"
+        :header="$t('issue.credentialDefinitionTag')"
         filter-field="credential_definition_id"
         :show-filter-match-modes="false"
       >
@@ -75,7 +75,7 @@
       <Column
         :sortable="true"
         field="connection"
-        header="Connection"
+        :header="$t('common.connection')"
         filter-field="Connection"
         :show-filter-match-modes="false"
       >
@@ -95,7 +95,7 @@
       <Column
         :sortable="true"
         field="state"
-        header="Status"
+        :header="$t('common.status')"
         filter-field="state"
         :show-filter-match-modes="false"
       >
@@ -115,7 +115,7 @@
       <Column
         :sortable="true"
         field="created"
-        header="Created at"
+        :header="$t('connect.table.createdAt')"
         filter-field="created"
         :show-filter-match-modes="false"
       >

@@ -52,7 +52,8 @@
     "byName": "Tìm kiếm Theo Tên",
     "configDelim": ": ",
     "confirmation": "Xác nhận",
-    "connectionName": "Tên Kết nối",
+    "connection": "Liên kết",
+    "connectionName": "Tên Liên Kết",
     "contactName": "Tên Liên hệ",
     "createdAt": "Được tạo vào lúc",
     "credentialId": "ID Chứng chỉ",
@@ -128,7 +129,7 @@
       "add": "Thêm Schema",
       "addedFromLedger": "Schema [{schemaId}] đã được thêm từ sổ cái.",
       "addFromLedger": "Thêm Schema từ Sổ cái",
-      "addFromLedgerInfo": "Điều này sẽ thêm bất kỳ Schema nào từ sổ cái kết nối để sử dụng trong tài khoản giao dịch này. Bạn phải nhập đầy đủ ID của Schema.",
+      "addFromLedgerInfo": "Điều này sẽ thêm bất kỳ Schema nào từ sổ cái Liên Kết để sử dụng trong tài khoản giao dịch này. Bạn phải nhập đầy đủ ID của Schema.",
       "addNotExists": "Schema yêu cầu không tồn tại trên sổ cái. Vui lòng kiểm tra ID của Schema và thử lại.",
       "alreadyExists": "Schema đã tồn tại trên sổ cái. Vui lòng sử dụng tên hoặc phiên bản khác.",
       "confirmDelete": "Bạn có chắc muốn xóa Schema này?",
@@ -177,20 +178,20 @@
       "url": "URL lời mời"
     },
     "connections": {
-      "connections": "Kết nối",
-      "delete": "Xóa kết nối",
-      "edit": "Chỉnh sửa kết nối",
-      "search": "Tìm kiếm kết nối"
+      "connections": "Liên Kết",
+      "delete": "Xóa Liên Kết",
+      "edit": "Chỉnh sửa Liên Kết",
+      "search": "Tìm kiếm Liên Kết"
     },
     "didExchange": {
       "did": "DID",
       "didExchange": "Trao đổi DID"
     },
     "edit": {
-      "lastUpdated": "Kết nối được cập nhật lần cuối: {0}"
+      "lastUpdated": "Liên Kết được cập nhật lần cuối: {0}"
     },
     "invitation": {
-      "alias": "Tên gọi kết nối",
+      "alias": "Tên gọi Liên Kết",
       "close": "Đóng",
       "create": "Tạo lời mời",
       "goal": "Mục tiêu",
@@ -199,7 +200,7 @@
       "oobSettings": "Cài đặt tùy chọn ngoài dải tần",
       "submit": "Gửi",
       "type": "Loại",
-      "typeConnections": "Kết nối",
+      "typeConnections": "Liên Kết",
       "typeMultiUse": "Lời mời đa dụng",
       "typeOob": "Ngoài dải tần",
       "typeSingleMulti": "Lời mời đơn/multi",
@@ -225,7 +226,7 @@
       "exchanges": "Giao dịch Chứng chỉ",
       "search": "Tìm kiếm Giao dịch Chứng chỉ",
       "table": {
-        "connection": "Kết nối",
+        "connection": "Liên Kết",
         "credential": "Chứng chỉ",
         "lastUpdate": "Cập nhật lần cuối"
       },
@@ -263,10 +264,10 @@
   },
   "issue": {
     "attributes": "Thuộc tính*",
-    "connection": "Kết nối: ",
-    "credentialDefinitionTag": "Thẻ Định nghĩa Chứng chỉ*",
+    "connection": "Liên Kết: ",
+    "credentialDefinitionTag": "Định nghĩa Chứng chỉ",
     "credentialFieldValues": "Giá trị Trường Chứng chỉ",
-    "credentials": "Chứng chỉ Đã phát hành/Đã đề xuất",
+    "credentials": "Chứng chỉ Đã phát hành",
     "credentialValue": "Giá trị Chứng chỉ",
     "delete": {
       "confirm": "Bạn có chắc muốn XÓA bản ghi giao dịch chứng chỉ này không?",
@@ -309,23 +310,23 @@
     "walletSecret": "Khóa của Ví"
   },
   "messages": {
-    "connectionId": "ID Kết nối",
+    "connectionId": "ID Liên Kết",
     "createMessage": "Tạo một Tin nhắn",
-    "disclaimer": "Lưu ý: Bảng này chứa các bản ghi lưu trữ tin nhắn. Đối với các cuộc trò chuyện theo từng kết nối, xem trang 'Kết nối'.",
+    "disclaimer": "Lưu ý: Bảng này chứa các bản ghi lưu trữ tin nhắn. Đối với các cuộc trò chuyện theo từng Liên Kết, xem trang 'Liên Kết'.",
     "messageContent": "Nội dung Tin nhắn",
     "messages": "Tin nhắn"
   },
   "profile": {
     "config": "Cấu hình:",
-    "connectionNotActiveYet": "Kết nối chưa hoạt động, làm mới hoặc quay lại khi người chứng thực chấp nhận yêu cầu.",
-    "connectTenantToEndorser": "Kết nối Khách với Người chứng thực",
-    "connectTenantToEndorserNotAllowed": "Innkeeper không chấp nhận kết nối người chứng thực.",
-    "connectToEndorserAndRegisterDID": "Kết nối với Người chứng thực và Đăng ký DID tương ứng với một Sổ cái",
+    "connectionNotActiveYet": "Liên Kết chưa hoạt động, làm mới hoặc quay lại khi người chứng thực chấp nhận yêu cầu.",
+    "connectTenantToEndorser": "Liên Kết Khách với Người chứng thực",
+    "connectTenantToEndorserNotAllowed": "Innkeeper không chấp nhận Liên Kết người chứng thực.",
+    "connectToEndorserAndRegisterDID": "Liên Kết với Người chứng thực và Đăng ký DID tương ứng với một Sổ cái",
     "contact": "Email liên hệ",
     "createdAt": "Được tạo lúc",
     "didNotActiveApproved": "Đăng ký DID được chấp nhận bởi Người chứng thực, tiếp tục ở trên.",
     "didNotActiveYet": "Chờ phê duyệt Đăng ký DID, làm mới hoặc quay lại khi Người chứng thực chấp nhận yêu cầu.",
-    "endorserConnection": "Kết nối Người chứng thực",
+    "endorserConnection": "Liên Kết Người chứng thực",
     "endorserInfo": "Thông tin Người chứng thực",
     "imageUrl": "URL Hình ảnh",
     "issuer": "Người phát hành",
@@ -350,7 +351,7 @@
       "version": "Phiên bản TAA:"
     },
     "tenantId": "ID Khách",
-    "tenantNotConnectedToEndorserYet": "Khách chưa kết nối với Người chứng thực",
+    "tenantNotConnectedToEndorserYet": "Khách chưa Liên Kết với Người chứng thực",
     "token": "Token JWT",
     "updatedAt": "Được cập nhật lúc",
     "walletDids": "DIDs Ví",
@@ -430,7 +431,7 @@
       "default": "Sổ cái mặc định",
       "ledgerDetails": "Chi tiết sổ cái",
       "ledgerList": "Danh sách sổ cái",
-      "quickConnect": "Kết nối nhanh với người chứng thực UI khách"
+      "quickConnect": "Liên Kết nhanh với người chứng thực UI khách"
     },
     "serverConfig": "Cấu hình máy chủ",
     "storage": {
@@ -479,7 +480,7 @@
     "settings": {
       "acapyAutoAcceptInvites": "Tự động chấp nhận lời mời",
       "acapyAutoAcceptRequests": "Tự động chấp nhận yêu cầu",
-      "acapyAutoPingConnection": "Tự động ping kết nối",
+      "acapyAutoPingConnection": "Tự động ping Liên Kết",
       "acapyAutoRequestEndorsement": "Tự động yêu cầu chứng thực",
       "acapyAutoRespondCredentialOffer": "Tự động phản hồi đề nghị chứng chỉ",
       "acapyAutoRespondCredentialRequest": "Tự động phản hồi yêu cầu chứng chỉ",
@@ -489,8 +490,8 @@
       "acapyCreateRevocationTransactions": "Tạo giao dịch thu hồi",
       "acapyEndorserRole": "Vai trò người chứng thực",
       "acapyHelpAutoAcceptInvites": "ACAPY_AUTO_ACCEPT_INVITES - Tự động chấp nhận lời mời mà không cần kích hoạt sự kiện webhook hoặc chờ yêu cầu quản trị.",
-      "acapyHelpAutoAcceptRequests": "ACAPY_AUTO_ACCEPT_REQUESTS - Tự động chấp nhận yêu cầu kết nối mà không cần kích hoạt sự kiện webhook hoặc chờ yêu cầu quản trị.",
-      "acapyHelpAutoPingConnection": "ACAPY_AUTO_PING_CONNECTION - Tự động gửi ping tin cậy ngay sau khi phản hồi kết nối được chấp nhận. Một số đại lý yêu cầu điều này trước khi đánh dấu kết nối là 'hoạt động'",
+      "acapyHelpAutoAcceptRequests": "ACAPY_AUTO_ACCEPT_REQUESTS - Tự động chấp nhận yêu cầu Liên Kết mà không cần kích hoạt sự kiện webhook hoặc chờ yêu cầu quản trị.",
+      "acapyHelpAutoPingConnection": "ACAPY_AUTO_PING_CONNECTION - Tự động gửi ping tin cậy ngay sau khi phản hồi Liên Kết được chấp nhận. Một số đại lý yêu cầu điều này trước khi đánh dấu Liên Kết là 'hoạt động'",
       "acapyHelpAutoRequestEndorsement": "ACAPY_AUTO_REQUEST_ENDORSEMENT - Đối với tác giả, chỉ định liệu tự động yêu cầu chứng thực cho tất cả giao dịch. (Nếu không được chỉ định, bộ điều khiển phải gọi thao tác yêu cầu chứng thực cho mỗi giao dịch.)",
       "acapyHelpAutoRespondCredentialOffer": "ACAPY_AUTO_RESPOND_CREDENTIAL_OFFER - Tự động phản hồi đề nghị chứng chỉ Indy với yêu cầu chứng chỉ",
       "acapyHelpAutoRespondCredentialRequest": "ACAPY_AUTO_RESPOND_CREDENTIAL_REQUEST - Tự động phản hồi yêu cầu chứng chỉ với chứng chỉ tương ứng",
@@ -503,7 +504,7 @@
       "acapyHelpLogLevel": "ACAPY_LOG_LEVEL - Chỉ định một mức độ ghi nhật ký tùy chỉnh.",
       "acapyHelpMonitorPing": "ACAPY_MONITOR_PING - Gửi webhook khi một ping được gửi hoặc nhận.",
       "acapyHelpNotifyRevocation": "ACAPY_NOTIFY_REVOCATION - Chỉ định rằng aca-py sẽ thông báo cho người nhận chứng chỉ khi thu hồi một chứng chỉ mà nó đã phát hành.",
-      "acapyHelpPublicInvites": "ACAPY_PUBLIC_INVITES - Gửi lời mời sử dụng DID công khai cho đại lý, và nhận yêu cầu kết nối được yêu cầu bởi lời mời sử dụng DID công khai. Mặc định",
+      "acapyHelpPublicInvites": "ACAPY_PUBLIC_INVITES - Gửi lời mời sử dụng DID công khai cho đại lý, và nhận yêu cầu Liên Kết được yêu cầu bởi lời mời sử dụng DID công khai. Mặc định",
       "acapyInvitePublic": "Lời mời được tạo nên công khai",
       "acapyLogLevel": "Mức độ ghi nhật ký",
       "acapyMonitorPing": "Theo dõi Ping",
@@ -518,8 +519,8 @@
     "checkIn": "Nhận khách",
     "search": "Tìm kiếm khách",
     "settings": {
-      "canBecomeIssuer": "Khách có thể trở thành người phát hành, tức là kết nối với người chứng thực và đăng ký DID",
-      "canConnectEndorser": "Khách được phép kết nối với người chứng thực",
+      "canBecomeIssuer": "Khách có thể trở thành người phát hành, tức là Liên Kết với người chứng thực và đăng ký DID",
+      "canConnectEndorser": "Khách được phép Liên Kết với người chứng thực",
       "canRegisterDid": "Khách được phép đăng ký DID công khai",
       "confirmDeletion": "Để xác nhận, hãy nhập \"{tenantName}\" vào ô dưới đây",
       "confirmDeletionIncorrect": "Tên khách không chính xác. Vui lòng xác nhận tên chính xác trước khi xóa.",
@@ -539,27 +540,27 @@
   "verifier": {
     "attributeRestrictionsSatisfied": "Tất cả các hạn chế thuộc tính đã được thỏa mãn",
     "comingSoon": "Sắp ra mắt",
-    "contactAlias: ": "Bí danh kết nối: ",
+    "contactAlias: ": "Bí danh Liên Kết: ",
     "credentialHeldBy": "Chứng chỉ được giữ bởi",
     "credentialTamperFree ": "Chứng chỉ không bị can thiệp ",
     "credentialValid": "Chứng chỉ hợp lệ",
     "presentationShouldHaveStatus": "Đây không phải là thành phần bạn đang tìm kiếm, trình bày nên có trạng thái='đã xác minh'",
     "status: ": "Trạng thái",
     "updatedAt": "Đã cập nhật lúc",
-    "verifications": "Các xác minh"
+    "verifications": "Các xác minh danh"
   },
   "verify": {
     "autoVerify": "Tự động xác minh",
     "autoVerifyHelp": "Lựa chọn xác minh để tự động xác minh bằng chứng",
     "comment": "Bình luận tùy chọn",
-    "connection": "Kết nối",
-    "copyRequest": "Sao chép yêu cầu trình bày hiện có",
-    "createRequest": "Tạo yêu cầu trình bày",
-    "delete": "Xóa hồ sơ trao đổi trình bày",
+    "connection": "Liên Kết",
+    "copyRequest": "Sao chép yêu cầu xác minh hiện có",
+    "createRequest": "Tạo yêu cầu xác minh",
+    "delete": "Xóa hồ sơ trao đổi xác minh",
     "deleteConfirmation": "Bạn có chắc chắn muốn xóa hồ sơ trao đổi trình bày này không?",
     "deleteSuccess": "Hồ sơ trao đổi trình bày đã được xóa thành công",
     "presentationRequestBody": "Yêu cầu chứng minh",
     "verification": "Xác minh",
-    "verifications": "Các xác minh"
+    "verifications": "Các xác minh danh tính"
   }
 }

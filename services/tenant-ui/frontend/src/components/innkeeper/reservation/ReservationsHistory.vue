@@ -114,7 +114,7 @@
         :sortable="true"
         field="created"
         filter-field="created"
-        header="Created at"
+        :header="$t('connect.table.createdAt')"
         :show-filter-match-modes="false"
       >
         <template #body="{ data }">

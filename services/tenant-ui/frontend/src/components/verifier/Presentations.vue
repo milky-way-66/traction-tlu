@@ -71,12 +71,12 @@
         header="Name"
       />
       <Column :sortable="true" field="role" header="Role" />
-      <Column :sortable="true" field="connection_id" header="Connection">
+      <Column :sortable="true" field="connection_id" :header="$t('common.connection')">
         <template #body="{ data }">
           <LoadingLabel :value="findConnectionName(data.connection_id)" />
         </template>
       </Column>
-      <Column :sortable="true" field="status" header="Status">
+      <Column :sortable="true" field="status" :header="$t('common.status')">
         <template #body="{ data }">
           <StatusChip :status="data.state" />
         </template>
@@ -86,7 +86,7 @@
         field="presentation_request_dict.comment"
         header="Comment"
       />
-      <Column :sortable="true" field="created_at" header="Created at">
+      <Column :sortable="true" field="created_at" :header="$t('connect.table.createdAt')">
         <template #body="{ data }">
           {{ formatDateLong(data.created_at) }}
         </template>

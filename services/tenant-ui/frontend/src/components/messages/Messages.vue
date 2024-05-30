@@ -47,7 +47,7 @@
       <Column
         sortable
         field="connection"
-        header="Connection"
+        :header="$t('common.connection')"
         filter-field="connection"
         :show-filter-match-modes="false"
       >

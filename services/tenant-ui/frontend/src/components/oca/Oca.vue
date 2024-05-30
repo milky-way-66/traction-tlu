@@ -89,7 +89,7 @@
       <Column
         :sortable="true"
         field="created"
-        header="Created at"
+        :header="$t('connect.table.createdAt')"
         filter-field="created"
         :show-filter-match-modes="false"
       >
