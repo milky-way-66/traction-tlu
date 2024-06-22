@@ -1,32 +1,7 @@
 <template>
   <form @submit.prevent="handleSubmit(!v$.$invalid)">
     <div v-if="!invitation_url">
-      <!-- Invitation type -->
-      <div class="mb-3">
-        <span>{{ $t('connect.invitation.type') }}</span>
-        <div class="my-2">
-          <RadioButton
-            v-model="isOob"
-            input-id="type1"
-            name="type"
-            :value="false"
-          />
-          <label for="type1" class="ml-2">{{
-            $t('connect.invitation.typeConnections')
-          }}</label>
-        </div>
-        <div>
-          <RadioButton
-            v-model="isOob"
-            input-id="type2"
-            name="type"
-            :value="true"
-          />
-          <label for="type2" class="ml-2">{{
-            $t('connect.invitation.typeOob')
-          }}</label>
-        </div>
-      </div>
+
 
       <!-- Single or multi use connection -->
       <div>{{ $t('connect.invitation.typeSingleMulti') }}</div>

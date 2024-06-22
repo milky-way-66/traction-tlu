@@ -38,16 +38,6 @@
                 >{{ $t('login.createRequest') }}</a
               >
             </p>
-
-            <p>
-              {{ $t('login.submittedRequest') }}
-              <a
-                href="#"
-                class="p-button-link login-mode"
-                @click.prevent="loginMode = LOGIN_MODE.STATUS"
-                >{{ $t('login.checkStatus') }}</a
-              >
-            </p>
           </div>
         </div>
 
@@ -60,26 +50,6 @@
             @click="goBack($event)"
           />
           <Reserve />
-        </div>
-
-        <!-- Checking Status -->
-        <div v-else-if="loginMode === LOGIN_MODE.STATUS" class="pt-6 pb-4">
-          <Button
-            :label="$t('login.backToSignIn')"
-            icon="pi pi-arrow-left"
-            class="p-button-text"
-            @click="goBack($event)"
-          />
-          <Status />
-        </div>
-
-        <!-- Show OIDC user if logged in -->
-        <div
-          v-if="stringOrBooleanTruthy(config.frontend.showOIDCReservationLogin)"
-        >
-          <div class="flex justify-content-end mt-4">
-            <OidcUserDisplayVue />
-          </div>
         </div>
       </div>
     </div>
@@ -100,9 +70,7 @@ import Button from 'primevue/button';
 import { useConfirm } from 'primevue/useconfirm';
 // Components
 import LoginForm from '@/components/LoginForm.vue';
-import OidcUserDisplayVue from './reservation/user/OidcUserDisplay.vue';
 import Reserve from './reservation/Reserve.vue';
-import Status from './reservation/Status.vue';
 import SessionTimeoutModal from './common/SessionTimeoutModal.vue';
 import { stringOrBooleanTruthy } from '@/helpers';
 // State

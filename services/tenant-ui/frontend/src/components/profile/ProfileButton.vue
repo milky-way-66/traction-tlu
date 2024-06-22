@@ -45,15 +45,6 @@ const items = [
     route: '/tenant/settings',
   },
   {
-    label: t('apiKey.apiKeys'),
-    route: '/authentications/keys',
-  },
-  {
-    label: t('common.developer'),
-    visible: config.value.frontend.showDeveloper,
-    route: '/tenant/developer',
-  },
-  {
     separator: true,
   },
   {

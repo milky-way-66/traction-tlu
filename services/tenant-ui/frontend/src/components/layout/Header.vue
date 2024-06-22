@@ -11,7 +11,6 @@
     </template>
 
     <template #end>
-      <LocaleSwitcher />
       <ProfileButton />
       <SessionTimer />
     </template>

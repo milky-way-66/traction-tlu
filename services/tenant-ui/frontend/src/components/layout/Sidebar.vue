@@ -64,11 +64,11 @@ const items = ref([
     route: '/verification/verifications',
   },
 
-  {
-    label: t('common.credentials'),
-    icon: 'pi pi-fw pi-wallet',
-    route: '/holder/credentials',
-  },
+  // {
+  //   label: t('common.credentials'),
+  //   icon: 'pi pi-fw pi-wallet',
+  //   route: '/holder/credentials',
+  // },
 
   {
     label: t('configuration.configuration'),
@@ -84,24 +84,24 @@ const items = ref([
         icon: 'pi pi-fw pi-id-card',
         route: '/credentialDefinitions',
       },
-      {
-        label: t('configuration.oca.oca'),
-        icon: 'pi pi-fw pi-compass',
-        route: '/oca',
-      },
+      // {
+      //   label: t('configuration.oca.oca'),
+      //   icon: 'pi pi-fw pi-compass',
+      //   route: '/oca',
+      // },
     ],
   },
 
-  {
-    label: t('messages.messages'),
-    icon: 'pi pi-fw pi-envelope',
-    route: '/messages/recent',
-  },
+  // {
+  //   label: t('messages.messages'),
+  //   icon: 'pi pi-fw pi-envelope',
+  //   route: '/messages/recent',
+  // },
 
-  {
-    label: t('about.about'),
-    icon: 'pi pi-fw pi-question-circle',
-    route: '/about',
-  },
+  // {
+  //   label: t('about.about'),
+  //   icon: 'pi pi-fw pi-question-circle',
+  //   route: '/about',
+  // },
 ]);
 </script>
