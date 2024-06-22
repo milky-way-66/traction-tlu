@@ -53,6 +53,6 @@ app.get('/hello-world', (req, res) => {
 // This service's api endpoints
 app.use(APIROOT, router);
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0',() => {
   console.log(`Listening on port ${PORT}`);
 });
