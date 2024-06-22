@@ -38,11 +38,11 @@
     "delete": "Xóa Khóa API",
     "deleteConfirmation": "Bạn có chắc chắn muốn xóa Khóa API này không?",
     "deleteSuccess": "Khóa API đã bị xóa",
-    "docs": "ID của Người thuê và Khóa API có thể được sử dụng để lấy mã truy cập từ điểm cuối Multitenancy Token.",
+    "docs": "ID của Người Dùng và Khóa API có thể được sử dụng để lấy mã truy cập từ điểm cuối Multitenancy Token.",
     "docsSwagger": "Tài liệu API có thể được tìm thấy tại đây:",
     "generatedKey": "Khóa API được tạo hiển thị dưới đây. Hộp thoại này là lần duy nhất khóa này sẽ được hiển thị và không thể truy xuất lại.",
-    "generatedKeyMessage": "Một Khóa API đã được tạo cho Người thuê của bạn",
-    "generatedKeyMessageInnkeeper": "Một Khóa API đã được tạo cho Người thuê {key}",
+    "generatedKeyMessage": "Một Khóa API đã được tạo cho Người Dùng của bạn",
+    "generatedKeyMessageInnkeeper": "Một Khóa API đã được tạo cho Người Dùng {key}",
     "search": "Tìm kiếm Khóa API"
   },
   "common": {
@@ -85,9 +85,9 @@
     "showDeleted": "Hiển thị đã xóa",
     "status": "Trạng thái",
     "submit": "Gửi",
-    "tenantId": "ID Người thuê",
-    "tenantName": "Tên Người thuê",
-    "tenantReason": "Lý do Người thuê",
+    "tenantId": "ID Người Dùng",
+    "tenantName": "Tên Người Dùng",
+    "tenantReason": "Lý do Người Dùng",
     "toggleCardExpand": "Chuyển đổi Mở rộng",
     "walletId": "Id của ví",
     "walletCredential": "Thông tin ví"
@@ -95,32 +95,32 @@
   "configuration": {
     "configuration": "Cấu hình",
     "credentialDefinitions": {
-      "alreadyExists": "Định nghĩa thông tin đã tồn tại trên sổ cái. Vui lòng sử dụng thẻ khác.",
-      "confirmDelete": "Bạn có chắc chắn muốn xóa định nghĩa thông tin này khỏi bộ nhớ không?",
-      "copy": "Sao chép Định nghĩa Thông tin",
-      "copyInfo1": "Điều này sẽ sao chép định nghĩa thông tin",
+      "alreadyExists": "Định nghĩa Chứng chỉ đã tồn tại trên sổ cái. Vui lòng sử dụng thẻ khác.",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa định nghĩa Chứng chỉ này khỏi bộ nhớ không?",
+      "copy": "Sao chép Định nghĩa Chứng chỉ",
+      "copyInfo1": "Điều này sẽ sao chép định nghĩa Chứng chỉ",
       "copyInfo2": "của lược đồ đã chọn",
       "copyInfo3": "bằng cách gán cho nó một thẻ mới.",
-      "create": "Tạo Định nghĩa Thông tin",
-      "delete": "Xóa Định nghĩa Thông tin",
-      "deleteSuccess": "Định nghĩa thông tin đã được xóa khỏi bộ nhớ",
+      "create": "Tạo Định nghĩa Chứng chỉ",
+      "delete": "Xóa Định nghĩa Chứng chỉ",
+      "deleteSuccess": "Định nghĩa Chứng chỉ đã được xóa khỏi bộ nhớ",
       "newTag": "Thẻ Mới*",
-      "postFinished": "Định nghĩa thông tin hiện đã được ghi vào sổ cái và có thể được sử dụng để cấp phát thông tin.",
-      "postStart": "Định nghĩa thông tin đã được đăng lên sổ cái. Điều này có thể mất vài giây.",
+      "postFinished": "Định nghĩa Chứng chỉ hiện đã được ghi vào sổ cái và có thể được sử dụng để cấp phát Chứng chỉ.",
+      "postStart": "Định nghĩa Chứng chỉ đã được đăng lên sổ cái. Điều này có thể mất vài giây.",
       "revokable": "Có thể thu hồi",
       "searchBySchemaId": "Tìm kiếm theo ID Lược đồ",
       "selectSchema": "Chọn một lược đồ",
-      "storage": "Bộ nhớ Định nghĩa Thông tin",
-      "stored": "Định nghĩa Thông tin đã lưu trữ",
+      "storage": "Định nghĩa Chứng chỉ",
+      "stored": "Định nghĩa Chứng chỉ đã lưu trữ",
       "tagAlreadyUsed": "Thẻ đã được sử dụng",
       "tagRequired": "Thẻ là bắt buộc",
-      "title": "Định nghĩa Thông tin"
+      "title": "Định nghĩa Chứng chỉ"
     },
     "oca": {
       "bundleAssociationType": "Loại liên kết gói OCA",
       "bundleJson": "OCA Bundle JSON",
       "bundleUrl": "URL Gói OCA*",
-      "disclaimer": "Chế độ xem Thẻ OCA cho Thông tin trong Giao diện Người dùng Thuê là một tính năng thử nghiệm.",
+      "disclaimer": "Chế độ xem Thẻ OCA cho Chứng chỉ trong Giao diện Người dùng Thuê là một tính năng thử nghiệm.",
       "oca": "OCA",
       "storedBundleJson": "Gói JSON đã lưu trữ",
       "url": "URL"
@@ -148,7 +148,7 @@
       "postFinished": "Schema hiện đã được viết vào sổ cái và có thể được sử dụng cho định nghĩa chứng chỉ.",
       "postStart": "Schema đã được đăng lên sổ cái. Điều này có thể mất vài giây.",
       "schema": "Schema",
-      "storage": "Lưu trữ Schema",
+      "storage": "Schema",
       "stored": "Các Schema đã lưu"
     },
     "search": {
@@ -201,10 +201,10 @@
       "submit": "Gửi",
       "type": "Loại",
       "typeConnections": "Liên Kết",
-      "typeMultiUse": "Lời mời đa dụng",
+      "typeMultiUse": "Lời mời sử dụng nhiều lần",
       "typeOob": "Ngoài dải tần",
       "typeSingleMulti": "Lời mời đơn/multi",
-      "typeSingleUse": "Lời mời đơn lần sử dụng"
+      "typeSingleUse": "Lời mời 1 lần"
     },
     "invitations": {
       "create": "Tạo lời mời",
@@ -350,7 +350,7 @@
       "taaDetails": "Chi tiết TAA",
       "version": "Phiên bản TAA:"
     },
-    "tenantId": "ID Khách",
+    "tenantId": "ID",
     "tenantNotConnectedToEndorserYet": "Khách chưa Liên Kết với Người chứng thực",
     "token": "Token JWT",
     "updatedAt": "Được cập nhật lúc",
@@ -435,8 +435,8 @@
     },
     "serverConfig": "Cấu hình máy chủ",
     "storage": {
-      "multitenantWalletName": "Tên Ví đa người thuê",
-      "multitenantWalletType": "Loại Ví đa người thuê",
+      "multitenantWalletName": "Tên Ví đa Người Dùng",
+      "multitenantWalletType": "Loại Ví đa Người Dùng",
       "title": "Bộ nhớ",
       "walletStorageConfig": "Cấu hình Bộ nhớ Ví",
       "walletStorageType": "Loại Bộ nhớ Ví",
@@ -449,7 +449,7 @@
       "reservationExpiry": "Thời hạn đặt chỗ (phút)",
       "reservationForm": "Form đặt chỗ",
       "reservationOidc": "Yêu cầu đăng nhập OIDC để đặt chỗ",
-      "title": "Người thuê/Đặt chỗ",
+      "title": "Người Dùng/Đặt chỗ",
       "token": "Thời hạn Token"
     },
     "tenantUi": {
@@ -475,7 +475,7 @@
   },
   "tenant": {
     "profile": {
-      "tenantProfile": "Hồ sơ khách"
+      "tenantProfile": "Hồ sơ"
     },
     "settings": {
       "acapyAutoAcceptInvites": "Tự động chấp nhận lời mời",
@@ -512,12 +512,12 @@
       "acapyPublicInvites": "Gửi lời mời sử dụng DID công khai",
       "auto": "Cờ tự động",
       "extraSettings": "Cài đặt ACA-Py thêm",
-      "tenantWalletSettings": "Cài đặt ví khách"
+      "tenantWalletSettings": "Cài đặt ví"
     }
   },
   "tenants": {
     "checkIn": "Nhận khách",
-    "search": "Tìm kiếm khách",
+    "search": "Tìm kiếm",
     "settings": {
       "canBecomeIssuer": "Khách có thể trở thành người phát hành, tức là Liên Kết với người chứng thực và đăng ký DID",
       "canConnectEndorser": "Khách được phép Liên Kết với người chứng thực",
