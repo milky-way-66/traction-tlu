@@ -20,15 +20,17 @@
       {
         "type": "Control",
         "scope": "#/properties/phoneNumber",
-        "label": "Phone / Mobile"
+        "label": "Điện thoại"
       },
       {
         "type": "Control",
-        "scope": "#/properties/fullName"
+        "scope": "#/properties/fullName",
+        "label": "Họ và tên"
       },
       {
         "type": "Control",
         "scope": "#/properties/tenantReason",
+        "label": "Lý do sử dụng",
         "options": {
           "multi": true
         }

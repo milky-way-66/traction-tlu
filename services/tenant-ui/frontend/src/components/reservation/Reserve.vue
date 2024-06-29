@@ -141,10 +141,12 @@ const manElements = [
   {
     type: 'Control',
     scope: '#/properties/tenantName',
+    label: "Tên sử dụng"
   },
   {
     type: 'Control',
     scope: '#/properties/emailAddress',
+    label: "Địa chỉ mail"
   },
 ];
 
