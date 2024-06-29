@@ -22,7 +22,6 @@
         <div class="flex justify-content-between">
           <div class="flex justify-content-start">
             <AcceptInvitation />
-            <DidExchange class="ml-4" />
           </div>
           <div class="flex justify-content-end">
             <IconField icon-position="left">
