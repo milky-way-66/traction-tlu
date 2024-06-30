@@ -223,8 +223,8 @@
   },
   "credentials": {
     "exchanges": {
-      "exchanges": "Giao dịch Chứng chỉ",
-      "search": "Tìm kiếm Giao dịch Chứng chỉ",
+      "exchanges": "Chứng chỉ",
+      "search": "Tìm kiếm Chứng chỉ",
       "table": {
         "connection": "Liên Kết",
         "credential": "Chứng chỉ",
@@ -270,9 +270,9 @@
     "credentials": "Chứng chỉ Đã phát hành",
     "credentialValue": "Giá trị Chứng chỉ",
     "delete": {
-      "confirm": "Bạn có chắc muốn XÓA bản ghi giao dịch chứng chỉ này không?",
-      "removeExchange": "Xóa Bản ghi Giao dịch Chứng chỉ",
-      "success": "Bản ghi giao dịch chứng chỉ đã được xóa"
+      "confirm": "Bạn có chắc muốn XÓA bản ghi chứng chỉ này không?",
+      "removeExchange": "Xóa Bản ghi Chứng chỉ",
+      "success": "Bản ghi chứng chỉ đã được xóa"
     },
     "id": "ID: ",
     "issuance": "Phát hành",
