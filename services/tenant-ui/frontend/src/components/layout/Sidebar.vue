@@ -64,11 +64,11 @@ const items = ref([
     route: '/verification/verifications',
   },
 
-  // {
-  //   label: t('common.credentials'),
-  //   icon: 'pi pi-fw pi-wallet',
-  //   route: '/holder/credentials',
-  // },
+  {
+    label: t('common.credentials'),
+    icon: 'pi pi-fw pi-wallet',
+    route: '/holder/credentials',
+  },
 
   {
     label: t('configuration.configuration'),
