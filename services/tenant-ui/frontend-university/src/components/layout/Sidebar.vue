@@ -52,11 +52,11 @@ const items = ref([
     ],
   },
 
-  // {
-  //   label: t('issue.issuance'),
-  //   icon: 'pi pi-fw pi-credit-card',
-  //   route: '/issuance/credentials',
-  // },
+  {
+    label: t('issue.issuance'),
+    icon: 'pi pi-fw pi-credit-card',
+    route: '/issuance/credentials',
+  },
 
   {
     label: t('verify.verification'),
@@ -70,27 +70,27 @@ const items = ref([
   //   route: '/holder/credentials',
   // },
 
-  // {
-  //   label: t('configuration.configuration'),
-  //   icon: 'pi pi-fw pi-file',
-  //   items: [
-  //     {
-  //       label: t('configuration.schemas.storage'),
-  //       icon: 'pi pi-fw pi-book',
-  //       route: '/schemas',
-  //     },
-  //     {
-  //       label: t('configuration.credentialDefinitions.storage'),
-  //       icon: 'pi pi-fw pi-id-card',
-  //       route: '/credentialDefinitions',
-  //     },
-  //     // {
-  //     //   label: t('configuration.oca.oca'),
-  //     //   icon: 'pi pi-fw pi-compass',
-  //     //   route: '/oca',
-  //     // },
-  //   ],
-  // },
+  {
+    label: t('configuration.configuration'),
+    icon: 'pi pi-fw pi-file',
+    items: [
+      {
+        label: t('configuration.schemas.storage'),
+        icon: 'pi pi-fw pi-book',
+        route: '/schemas',
+      },
+      {
+        label: t('configuration.credentialDefinitions.storage'),
+        icon: 'pi pi-fw pi-id-card',
+        route: '/credentialDefinitions',
+      },
+      // {
+      //   label: t('configuration.oca.oca'),
+      //   icon: 'pi pi-fw pi-compass',
+      //   route: '/oca',
+      // },
+    ],
+  },
 
   // {
   //   label: t('messages.messages'),
