@@ -1,1 +1,0 @@
-const t=window._paq=window._paq||[];t.push(["trackPageView"]);t.push(["enableLinkTracking"]);function r(p){const s=`//${p}/`;t.push(["setTrackerUrl",s+"matomo.php"]),t.push(["setSiteId",1]);const a=document,e=a.createElement("script"),n=a.getElementsByTagName("script")[0];e.type="text/javascript",e.async=!0,e.src=s+"matomo.js",n.parentNode.insertBefore(e,n)}export{r as setup};
