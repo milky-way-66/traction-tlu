@@ -610,7 +610,7 @@ ui:
   ##
   ux:
     ## @param ui.ux.appTitle Title of the application
-    appTitle: "Thang long University"
+    appTitle: "University"
     ## @param ui.ux.appInnkeeperTitle Title of the Innkeeper Console
     appInnkeeperTitle: "Traction Innkeeper Console"
     ## @param ui.ux.sidebarTitle Sidebar title

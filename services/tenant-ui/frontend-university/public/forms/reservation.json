@@ -1,0 +1,27 @@
+{
+  "formDataSchema": {
+    "type": "object",
+    "properties": {
+      "fullName": {
+        "type": "string"
+      },
+      "phoneNumber": {
+        "type": "string"
+      },
+      "tenantReason": {
+        "type": "string"
+      }
+    },
+    "required": []
+  },
+  "formUISchema": {
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/phoneNumber",
+        "label": "Điện thoại"
+      }
+    ]
+  }
+}

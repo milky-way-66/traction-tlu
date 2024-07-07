@@ -22,17 +22,17 @@
       "extraQueryParams": {}
     },
     "ux": {
-      "appTitle": "Thang Long University",
+      "appTitle": "Chứng chỉ số",
       "appInnkeeperTitle": "Traction Innkeeper Console",
       "sidebarTitle": "TRACTION",
       "copyright": "",
       "owner": "",
       "coverImageCopyright": "Photo by Kristoffer Fredriksson on StockSnap",
       "aboutBusiness": {
-        "title": "Thang Long University",
-        "linkTitle": "Thang Long University",
+        "title": "Chứng chỉ số",
+        "linkTitle": "Chứng chỉ số",
         "link": "https://thanglong.edu.vn",
-        "imageUrl": "/img/logo/tlu-logo-white.jpg"
+        "imageUrl": "/img/logo/uni.png"
       },
       "infoBanner": {
         "message": "",
