@@ -21,12 +21,6 @@
             name="wallet-id"
             class="w-full"
           />
-          <Button
-            icon="pi pi-copy"
-            title="Copy to clipboard"
-            class="p-button-secondary"
-            @click="copyWalletId"
-          />
         </div>
       </div>
 
@@ -42,12 +36,6 @@
             toggle-mask
             :feedback="false"
             placeholder="Password"
-          />
-          <Button
-            icon="pi pi-copy"
-            title="Copy to clipboard"
-            class="p-button-secondary"
-            @click="copyWalletKey"
           />
         </div>
       </div>
