@@ -276,7 +276,7 @@
     },
     "id": "ID: ",
     "issuance": "Phát hành",
-    "offer": "Đề xuất Chứng chỉ",
+    "offer": "Cấp Chứng chỉ",
     "revocationEnabled": "Cho phép Thu hồi",
     "revocationId": "ID Thu hồi: ",
     "revocationRegistry": "Sổ thu hồi: ",
@@ -288,8 +288,8 @@
       "revokeCred": "Thu hồi Chứng chỉ",
       "success": "Chứng chỉ đã bị thu hồi"
     },
-    "schema": "Mô hình",
-    "schemaId": "ID Mô hình*",
+    "schema": "Schema",
+    "schemaId": "ID Schema*",
     "schemaName": "Tên*",
     "schemaVersion": "Phiên bản*",
     "version": "Phiên bản:"

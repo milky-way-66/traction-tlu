@@ -3,7 +3,6 @@
     <div class="col-12 md:col-6 xl:col-4">
       <div class="px-8">
         <div class="pt-6 pb-2" style="font-size: 40px; text-align: center;">
-          Đăng nhập
         </div>
 
         <!-- Logging In -->

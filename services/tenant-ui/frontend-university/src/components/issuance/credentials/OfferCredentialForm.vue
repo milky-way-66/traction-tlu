@@ -96,7 +96,7 @@
 
         <Button
           type="submit"
-          label="Send Offer"
+          label="Cấp chứng chỉ"
           class="mt-5 w-full"
           :disabled="connectionLoading || credsLoading || issueLoading"
           :loading="connectionLoading || credsLoading || issueLoading"
