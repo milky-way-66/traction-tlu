@@ -12,7 +12,7 @@ import {
 const { config } = storeToRefs(useConfigStore());
 
 onMounted(() => {
-  document.title = config.value.frontend.ux.appTitle;
+  document.title = "Cơ sở giáo dục";
 
   // This is used to remove localStorage data when the user driectly accesses the app as a new window or tab.
   // The token is still in the browser localstorage before this, so it is a superficial security measure.
