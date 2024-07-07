@@ -1,0 +1,566 @@
+{
+  "about": {
+    "about": "Giới thiệu",
+    "acaPy": {
+      "acaPy": "ACA-Py",
+      "acapyVersion": "Phiên bản ACA-Py {version}",
+      "info": "Thông tin phiên bản của ACA-Py",
+      "ledger": "Sổ cái",
+      "ledgerBrowser": "Trình duyệt Sổ cái",
+      "plugins": "Danh sách Plugin đã cài đặt",
+      "tailsServer": "Máy chủ Tails"
+    },
+    "traction": {
+      "imageCreated": "Ảnh được tạo vào lúc",
+      "imageTag": "Thẻ ảnh",
+      "imageVersion": "Phiên bản ảnh",
+      "info": "Thông tin phiên bản/lưu trữ của TRACTION",
+      "repository": "Kho GitHub cho Traction",
+      "swagger": "URL Swagger",
+      "traction": "Traction",
+      "tractionVersion": "Phiên bản Traction {version}",
+      "uiVersion": "Phiên bản giao diện Người dùng {version}",
+      "url": "URL Traction"
+    }
+  },
+  "admin": {
+    "adminKey": "Khóa Quản trị",
+    "adminName": "Tên Quản trị",
+    "error": "LỖI",
+    "orRequestAccessWith": "Hoặc Yêu cầu Truy cập Với",
+    "orSignInWith": "Hoặc Đăng nhập Với"
+  },
+  "apiKey": {
+    "alias": "Bí danh cho Khóa",
+    "apiKeys": "Khóa API",
+    "createApiKey": "Tạo Khóa API",
+    "createSuccess": "Khóa API đã được tạo",
+    "delete": "Xóa Khóa API",
+    "deleteConfirmation": "Bạn có chắc chắn muốn xóa Khóa API này không?",
+    "deleteSuccess": "Khóa API đã bị xóa",
+    "docs": "ID của Người Dùng và Khóa API có thể được sử dụng để lấy mã truy cập từ điểm cuối Multitenancy Token.",
+    "docsSwagger": "Tài liệu API có thể được tìm thấy tại đây:",
+    "generatedKey": "Khóa API được tạo hiển thị dưới đây. Hộp thoại này là lần duy nhất khóa này sẽ được hiển thị và không thể truy xuất lại.",
+    "generatedKeyMessage": "Một Khóa API đã được tạo cho Người Dùng của bạn",
+    "generatedKeyMessageInnkeeper": "Một Khóa API đã được tạo cho Người Dùng {key}",
+    "search": "Tìm kiếm Khóa API"
+  },
+  "common": {
+    "actions": "Hành động",
+    "alias": "Bí danh",
+    "apiKey": "Khóa API",
+    "byName": "Tìm kiếm Theo Tên",
+    "configDelim": ": ",
+    "confirmation": "Xác nhận",
+    "connection": "Liên kết",
+    "connectionName": "Tên Liên Kết",
+    "contactName": "Tên Liên hệ",
+    "createdAt": "Được tạo vào lúc",
+    "credentialId": "ID Chứng chỉ",
+    "credentials": "Chứng chỉ",
+    "decodedJwt": "JWT đã giải mã",
+    "deleted": "Đã xóa",
+    "deletedAt": "Đã xóa vào lúc",
+    "developer": "Nhà phát triển",
+    "emailAddress": "Địa chỉ Email",
+    "encodedJwt": "JWT đã mã hóa",
+    "endorser": "Người chứng thực",
+    "errorGettingUrl": "Lỗi khi lấy {url}",
+    "genericError": "Đã xảy ra lỗi",
+    "hideDeleted": "Ẩn đã xóa",
+    "invitationUrl": "URL Lời mời",
+    "json": "JSON",
+    "loading": "Đang tải dữ liệu. Vui lòng đợi...",
+    "logout": "Đăng xuất",
+    "name": "Tên",
+    "noRecordsFound": "Không tìm thấy bản ghi nào",
+    "profile": "Hồ sơ",
+    "protocol": "Giao thức",
+    "refreshTable": "Làm mới Bảng",
+    "request": "Yêu cầu",
+    "searchByCreated": "Tìm kiếm Theo Ngày Tạo",
+    "searchByDeleted": "Tìm kiếm Theo Ngày Xóa",
+    "searchByName": "Tìm kiếm Theo Tên",
+    "settings": "Cài đặt",
+    "showDeleted": "Hiển thị đã xóa",
+    "status": "Trạng thái",
+    "submit": "Gửi",
+    "tenantId": "ID Người Dùng",
+    "tenantName": "Tên Người Dùng",
+    "tenantReason": "Lý do Người Dùng",
+    "toggleCardExpand": "Chuyển đổi Mở rộng",
+    "walletId": "Id của ví",
+    "walletCredential": "Thông tin ví"
+  },
+  "configuration": {
+    "configuration": "Cấu hình",
+    "credentialDefinitions": {
+      "alreadyExists": "Định nghĩa Chứng chỉ đã tồn tại trên sổ cái. Vui lòng sử dụng thẻ khác.",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa định nghĩa Chứng chỉ này khỏi bộ nhớ không?",
+      "copy": "Sao chép Định nghĩa Chứng chỉ",
+      "copyInfo1": "Điều này sẽ sao chép định nghĩa Chứng chỉ",
+      "copyInfo2": "của lược đồ đã chọn",
+      "copyInfo3": "bằng cách gán cho nó một thẻ mới.",
+      "create": "Tạo Định nghĩa Chứng chỉ",
+      "delete": "Xóa Định nghĩa Chứng chỉ",
+      "deleteSuccess": "Định nghĩa Chứng chỉ đã được xóa khỏi bộ nhớ",
+      "newTag": "Thẻ Mới*",
+      "postFinished": "Định nghĩa Chứng chỉ hiện đã được ghi vào sổ cái và có thể được sử dụng để cấp phát Chứng chỉ.",
+      "postStart": "Định nghĩa Chứng chỉ đã được đăng lên sổ cái. Điều này có thể mất vài giây.",
+      "revokable": "Có thể thu hồi",
+      "searchBySchemaId": "Tìm kiếm theo ID Lược đồ",
+      "selectSchema": "Chọn một lược đồ",
+      "storage": "Định nghĩa Chứng chỉ",
+      "stored": "Định nghĩa Chứng chỉ đã lưu trữ",
+      "tagAlreadyUsed": "Thẻ đã được sử dụng",
+      "tagRequired": "Thẻ là bắt buộc",
+      "title": "Định nghĩa Chứng chỉ"
+    },
+    "oca": {
+      "bundleAssociationType": "Loại liên kết gói OCA",
+      "bundleJson": "OCA Bundle JSON",
+      "bundleUrl": "URL Gói OCA*",
+      "disclaimer": "Chế độ xem Thẻ OCA cho Chứng chỉ trong Giao diện Người dùng Thuê là một tính năng thử nghiệm.",
+      "oca": "OCA",
+      "storedBundleJson": "Gói JSON đã lưu trữ",
+      "url": "URL"
+    },
+    "schemas": {
+      "add": "Thêm Schema",
+      "addedFromLedger": "Schema [{schemaId}] đã được thêm từ sổ cái.",
+      "addFromLedger": "Thêm Schema từ Sổ cái",
+      "addFromLedgerInfo": "Điều này sẽ thêm bất kỳ Schema nào từ sổ cái Liên Kết để sử dụng trong tài khoản giao dịch này. Bạn phải nhập đầy đủ ID của Schema.",
+      "addNotExists": "Schema yêu cầu không tồn tại trên sổ cái. Vui lòng kiểm tra ID của Schema và thử lại.",
+      "alreadyExists": "Schema đã tồn tại trên sổ cái. Vui lòng sử dụng tên hoặc phiên bản khác.",
+      "confirmDelete": "Bạn có chắc muốn xóa Schema này?",
+      "copy": "Sao chép Schema",
+      "copyMessage": "Bạn có thể thay đổi thuộc tính, nhưng Schema mới phải có tên hoặc phiên bản khác.",
+      "copySent": "Schema đã được sao chép và gửi đến sổ cái. Điều này có thể mất vài giây.",
+      "create": "Tạo Schema",
+      "delete": "Xóa Schema",
+      "deleteSuccess": "Schema đã được xóa thành công",
+      "emptyAttributes": "Vui lòng cung cấp ít nhất một thuộc tính cho Schema",
+      "id": "ID của Schema",
+      "invalidCopy": "Không thể sao chép với cùng giá trị {field} [{value}]",
+      "mustBeDecimal": "Phải là giá trị thập phân 2 hoặc 3 phần như x.y hoặc x.y.z",
+      "newName": "Tên Schema mới",
+      "newVersion": "Phiên bản Schema mới",
+      "postFinished": "Schema hiện đã được viết vào sổ cái và có thể được sử dụng cho định nghĩa chứng chỉ.",
+      "postStart": "Schema đã được đăng lên sổ cái. Điều này có thể mất vài giây.",
+      "schema": "Schema",
+      "storage": "Schema",
+      "stored": "Các Schema đã lưu"
+    },
+    "search": {
+      "actions": "Hành động",
+      "attributes": "Thuộc tính",
+      "byAttributes": "Tìm kiếm theo thuộc tính",
+      "byDate": "Tìm kiếm theo ngày",
+      "byId": "Tìm kiếm theo ID",
+      "byName": "Tìm kiếm theo tên",
+      "bySchemaId": "Tìm kiếm theo ID của Schema",
+      "byVersion": "Tìm kiếm theo phiên bản",
+      "createdAt": "Ngày tạo",
+      "credDefs": "Tìm kiếm",
+      "name": "Tên",
+      "schemas": "Tìm kiếm",
+      "version": "Phiên bản"
+    }
+  },
+  "connect": {
+    "acceptInvitation": {
+      "accept": "Chấp nhận lời mời",
+      "invitation": "Lời mời",
+      "skipUrl": "Bỏ qua URL và sử dụng JSON",
+      "submit": "Chấp nhận",
+      "supportedUrl": "Định dạng URL được hỗ trợ là",
+      "supportedUrlEx": "http://<acapy_url>?{0}=<base64 encode>",
+      "url": "URL lời mời"
+    },
+    "connections": {
+      "connections": "Liên Kết",
+      "delete": "Xóa Liên Kết",
+      "edit": "Chỉnh sửa Liên Kết",
+      "search": "Tìm kiếm Liên Kết"
+    },
+    "didExchange": {
+      "did": "DID",
+      "didExchange": "Trao đổi DID"
+    },
+    "edit": {
+      "lastUpdated": "Liên Kết được cập nhật lần cuối: {0}"
+    },
+    "invitation": {
+      "alias": "Tên gọi Liên Kết",
+      "close": "Đóng",
+      "create": "Tạo kết nối",
+      "goal": "Mục tiêu",
+      "goalCode": "Mã mục tiêu",
+      "myLabel": "Nhãn của tôi",
+      "oobSettings": "Cài đặt tùy chọn ngoài dải tần",
+      "submit": "Gửi",
+      "type": "Loại",
+      "typeConnections": "Liên Kết",
+      "typeMultiUse": "Kết nối sử dụng nhiều lần",
+      "typeOob": "Ngoài dải tần",
+      "typeSingleMulti": "Loại kết nối",
+      "typeSingleUse": "Kết nối 1 lần"
+    },
+    "invitations": {
+      "create": "Tạo kết nối",
+      "invitations": "Kết nối",
+      "regenerate": "Tạo lại kết nối",
+      "search": "Tìm kiếm kết nối"
+    },
+    "message": {
+      "messageConnection": "Trò chuyện với {0}"
+    },
+    "table": {
+      "createdAt": "Ngày tạo",
+      "invitationMode": "Chế độ lời mời",
+      "theirLabel": "Nhãn của họ"
+    }
+  },
+  "credentials": {
+    "exchanges": {
+      "exchanges": "Chứng chỉ",
+      "search": "Tìm kiếm Chứng chỉ",
+      "table": {
+        "connection": "Liên Kết",
+        "credential": "Chứng chỉ",
+        "lastUpdate": "Cập nhật lần cuối"
+      },
+      "viewCard": "Xem dưới dạng Thẻ",
+      "viewTable": "Xem dưới dạng Bảng"
+    },
+    "wallet": {
+      "noOca": "Không có OCA liên quan đến định nghĩa chứng chỉ này",
+      "noOcaNotImpl": "Không thể hiển thị dưới dạng thẻ cho Chứng chỉ không có OCA vào thời điểm này.",
+      "notFound": "Không có chứng chỉ nào trong Ví của bạn"
+    }
+  },
+  "dashboard": {
+    "backToDashboard": "Quay lại trang chủ",
+    "dashboard": "Trang chủ",
+    "greeting": "Cơ sở giáo dục"
+  },
+  "holder": {
+    "holder": "Người giữ"
+  },
+  "home": {
+    "dashboard": "Trang chủ",
+    "greeting": "Cơ sở giáo dục",
+    "login": {
+      "id": "ID Ví",
+      "secret": "Khóa Ví",
+      "submit": "Đăng nhập"
+    }
+  },
+  "httpStatus": {
+    "404": {
+      "code": "404",
+      "status": "Không tìm thấy trang"
+    }
+  },
+  "issue": {
+    "attributes": "Thuộc tính*",
+    "connection": "Liên Kết: ",
+    "credentialDefinitionTag": "Định nghĩa Chứng chỉ",
+    "credentialFieldValues": "Giá trị Trường Chứng chỉ",
+    "credentials": "Chứng chỉ Đã phát hành",
+    "credentialValue": "Giá trị Chứng chỉ",
+    "delete": {
+      "confirm": "Bạn có chắc muốn XÓA bản ghi chứng chỉ này không?",
+      "removeExchange": "Xóa Bản ghi Chứng chỉ",
+      "success": "Bản ghi chứng chỉ đã được xóa"
+    },
+    "id": "ID: ",
+    "issuance": "Phát hành",
+    "offer": "Đề xuất Chứng chỉ",
+    "revocationEnabled": "Cho phép Thu hồi",
+    "revocationId": "ID Thu hồi: ",
+    "revocationRegistry": "Sổ thu hồi: ",
+    "revocationRegistrySize": "Kích thước Sổ thu hồi",
+    "revoke": {
+      "action": "Thu hồi",
+      "comment": "Bình luận tùy chọn",
+      "confirm": "Bạn có chắc muốn THU HỒI chứng chỉ này không?",
+      "revokeCred": "Thu hồi Chứng chỉ",
+      "success": "Chứng chỉ đã bị thu hồi"
+    },
+    "schema": "Mô hình",
+    "schemaId": "ID Mô hình*",
+    "schemaName": "Tên*",
+    "schemaVersion": "Phiên bản*",
+    "version": "Phiên bản:"
+  },
+  "layout": {
+    "header": {
+      "toggleSideMenu": "Chuyển đổi menu bên"
+    }
+  },
+  "login": {
+    "backToSignIn": "Quay lại trang đăng nhập",
+    "checkStatus": "Kiểm tra trạng thái!",
+    "createRequest": "Tạo yêu cầu!",
+    "invalidCreds": "Thông tin đăng nhập không chính xác. Vui lòng thử lại.",
+    "noAccount": "Không có tài khoản?",
+    "submit": "Đăng nhập",
+    "submittedRequest": "Đã gửi yêu cầu?",
+    "walletSecret": "Khóa của Ví"
+  },
+  "messages": {
+    "connectionId": "ID Liên Kết",
+    "createMessage": "Tạo một Tin nhắn",
+    "disclaimer": "Lưu ý: Bảng này chứa các bản ghi lưu trữ tin nhắn. Đối với các cuộc trò chuyện theo từng Liên Kết, xem trang 'Liên Kết'.",
+    "messageContent": "Nội dung Tin nhắn",
+    "messages": "Tin nhắn"
+  },
+  "profile": {
+    "config": "Cấu hình:",
+    "connectionNotActiveYet": "Liên Kết chưa hoạt động, làm mới hoặc quay lại khi người chứng thực chấp nhận yêu cầu.",
+    "connectTenantToEndorser": "Liên Kết Khách với Người chứng thực",
+    "connectTenantToEndorserNotAllowed": "Innkeeper không chấp nhận Liên Kết người chứng thực.",
+    "connectToEndorserAndRegisterDID": "Liên Kết với Người chứng thực và Đăng ký DID tương ứng với một Sổ cái",
+    "contact": "Email liên hệ",
+    "createdAt": "Được tạo lúc",
+    "didNotActiveApproved": "Đăng ký DID được chấp nhận bởi Người chứng thực, tiếp tục ở trên.",
+    "didNotActiveYet": "Chờ phê duyệt Đăng ký DID, làm mới hoặc quay lại khi Người chứng thực chấp nhận yêu cầu.",
+    "endorserConnection": "Liên Kết Người chứng thực",
+    "endorserInfo": "Thông tin Người chứng thực",
+    "imageUrl": "URL Hình ảnh",
+    "issuer": "Người phát hành",
+    "name": "Tên",
+    "noEndorserInfoFound": "Không tìm thấy thông tin Người chứng thực, việc phát hành bị vô hiệu hóa",
+    "pendingDidTx": "Giao dịch DID công khai chờ Người chứng thực",
+    "publicDid": "DID công khai",
+    "publicDidPending": "Yêu cầu DID công khai (Chờ phê duyệt của Người chứng thực)",
+    "registerPublicDid": "Đăng ký một DID công khai",
+    "registerPublicDidNotAllowed": "Innkeeper không chấp nhận đăng ký DID công khai.",
+    "state": "Trạng thái: {0}",
+    "taa": {
+      "accepted": "Đã chấp nhận vào",
+      "agreeAccept": "Tôi đồng ý với các điều khoản của Thỏa thuận Tác giả Giao dịch",
+      "mechanism": "Cơ chế",
+      "ratification": "Phê chuẩn:",
+      "requiredNo": "Không cần Thỏa thuận Tác giả Giao dịch cho sổ cái này.",
+      "requiredYes": "Cần một Thỏa thuận Tác giả Giao dịch cho sổ cái này.",
+      "reviewButton": "Xem lại/Chấp nhận TAA",
+      "taaAcceptance": "Chấp nhận TAA",
+      "taaDetails": "Chi tiết TAA",
+      "version": "Phiên bản TAA:"
+    },
+    "tenantId": "ID",
+    "tenantNotConnectedToEndorserYet": "Khách chưa Liên Kết với Người chứng thực",
+    "token": "Token JWT",
+    "updatedAt": "Được cập nhật lúc",
+    "walletDids": "DIDs Ví",
+    "walletLabel": "Nhãn Ví",
+    "webHookKey": "Khóa WebHook",
+    "webhooks": "Webhooks",
+    "webHookUrl": "URL WebHook",
+    "writeLedger": "Sổ cái hiện tại: {0}"
+  },
+  "qrCode": {
+    "noContentFound": "Không tìm thấy nội dung"
+  },
+  "reservations": {
+    "alreadyComplete": "Đã hoàn thành",
+    "approved!": "ĐÃ CHẤP NHẬN!",
+    "approved": {
+      "text": "Mật khẩu Check-In đã được tạo. Một email đã được gửi đến {email}",
+      "title": "Đặt chỗ được chấp nhận",
+      "toast": "Đặt chỗ được chấp nhận cho {email}"
+    },
+    "approveRequest": "Chấp nhận yêu cầu",
+    "checkJunkFolder": "(Vui lòng kiểm tra thư mục rác/spam trước khi liên hệ với chúng tôi, vì rất thường gặp vấn đề giao hàng email do bộ lọc tự động.)",
+    "contactEmail": "Email liên hệ",
+    "contactPhone": "Điện thoại liên hệ",
+    "current": "Hiện tại",
+    "dateOccurred": "Ngày xảy ra là {0}",
+    "declined!": "ĐÃ TỪ CHỐI!",
+    "denied": {
+      "reasonText": "Lý do từ chối (Tùy chọn)",
+      "toast": "Đặt chỗ bị từ chối cho {email}"
+    },
+    "denyRequest": "Từ chối yêu cầu",
+    "emailSentTo": "Một email cũng đã được gửi đến {0} với số đặt chỗ dưới đây.",
+    "enterPassword": "Vui lòng nhập mật khẩu đặt chỗ dưới đây để xác thực tài khoản của bạn.",
+    "history": "Lịch sử",
+    "incorrectEmailOrReservationId": "Email hoặc ID đặt chỗ không chính xác. Vui lòng thử lại.",
+    "loadingCheckIn": "Đang kiểm tra đặt chỗ",
+    "otp": "Mật khẩu được hiển thị dưới đây một lần nếu bạn cần giao tiếp nó qua các phương tiện khác",
+    "passwordAvailable": "Mật khẩu đặt chỗ hiển thị dưới đây, vui lòng sử dụng nó để hoàn tất việc check-in của bạn.",
+    "passwordValid48Hours": "Mật khẩu đặt chỗ chỉ có hiệu lực trong 48 giờ kể từ thời điểm nó được gửi đến địa chỉ email của bạn.",
+    "pending!": "ĐANG CHỜ!",
+    "refreshed": {
+      "text": "Mật khẩu Check-In đã được gửi lại đến {email}",
+      "title": "Mật khẩu đã được làm mới",
+      "toast": "Mật khẩu đã được làm mới cho {email}"
+    },
+    "refreshPassword": "Làm mới mật khẩu",
+    "requestDeclined": "Chúng tôi rất tiếc thông báo rằng yêu cầu của bạn đã bị từ chối.",
+    "requestProcessingTime": "Thời gian xử lý yêu cầu thường mất 3-4 ngày làm việc. Cảm ơn sự kiên nhẫn của bạn.",
+    "requestReservedOn": "Yêu cầu của bạn đã được nhận vào {0}",
+    "requests": "Yêu cầu",
+    "reservationHistory": "Lịch sử đặt chỗ",
+    "reservationId": "ID đặt chỗ",
+    "reservationPassword": "Mật khẩu đặt chỗ",
+    "reservationPreviouslyCompleted": "Đặt chỗ này đã được hoàn thành trước đó và chi tiết ví đã được cung cấp.",
+    "reservations": "Đặt chỗ",
+    "reservationValidated": "Đặt chỗ của bạn đã được xác thực thành công.",
+    "resonForRejection": "Lý do từ chối",
+    "saveWalletIdAndWalletKey": "Vui lòng lưu id ví và khóa ví mới tạo của bạn ở một vị trí an toàn. Bạn sẽ mất dữ liệu một khi cửa sổ này được đóng hoặc bạn quay lại để đăng nhập. Chúng tôi sẽ không bao giờ chia sẻ thông tin này qua email cũng như chúng tôi không tái phát hành theo yêu cầu.",
+    "sentPasswordOn": "Chúng tôi đã gửi mật khẩu đặt chỗ đến địa chỉ email của bạn vào {0}",
+    "submitNewRequest": "Nếu bạn nghĩ rằng đã có lỗi, bạn có thể gửi một yêu cầu mới một lần nữa.",
+    "submitted": "Yêu cầu của bạn đã được gửi thành công.",
+    "thankYou!": "Cảm ơn bạn!",
+    "validated!": "ĐÃ XÁC MINH!",
+    "walletIdAndWalletKey": "Dưới đây là ID Ví và Khóa Ví mới của bạn được liên kết với địa chỉ email được đề cập khi đăng ký.",
+    "walletKey": "khóa của ví",
+    "walletKeyCannotBeRetrievedAgain": "Khóa ví không thể được lấy lại một lần cung cấp. Nếu bạn cần một ví mới, bạn có thể quay lại và bắt đầu một đặt chỗ mới."
+  },
+  "reserve": {
+    "fullName": "Tên đầy đủ",
+    "phone": "Điện thoại / Di động"
+  },
+  "serverConfig": {
+    "acapyVersion": "Phiên bản ACA-Py",
+    "expand": "Hiển thị cấu hình máy chủ ACA-Py đầy đủ",
+    "ledger": {
+      "default": "Sổ cái mặc định",
+      "ledgerDetails": "Chi tiết sổ cái",
+      "ledgerList": "Danh sách sổ cái",
+      "quickConnect": "Liên Kết nhanh với người chứng thực UI khách"
+    },
+    "serverConfig": "Cấu hình máy chủ",
+    "storage": {
+      "multitenantWalletName": "Tên Ví đa Người Dùng",
+      "multitenantWalletType": "Loại Ví đa Người Dùng",
+      "title": "Bộ nhớ",
+      "walletStorageConfig": "Cấu hình Bộ nhớ Ví",
+      "walletStorageType": "Loại Bộ nhớ Ví",
+      "walletType": "Loại Ví"
+    },
+    "tenants": {
+      "reservation": "Đặt chỗ",
+      "reservationAutoApprove": "Tự động chấp nhận đặt chỗ",
+      "reservationAutoIssuer": "Tự động chấp nhận phát hành",
+      "reservationExpiry": "Thời hạn đặt chỗ (phút)",
+      "reservationForm": "Form đặt chỗ",
+      "reservationOidc": "Yêu cầu đăng nhập OIDC để đặt chỗ",
+      "title": "Người Dùng/Đặt chỗ",
+      "token": "Thời hạn Token"
+    },
+    "tenantUi": {
+      "expand": "Hiển thị cấu hình Frontend UI Khách đầy đủ",
+      "oidc": "Điểm cuối OIDC",
+      "sessionExpiry": "Thời hạn phiên Frontend",
+      "sessionExpiryVal": "{0} giây (Đếm ngược: {1} giây)",
+      "showWrite": "Hiển thị 'Viết' Các thành phần",
+      "tenantUi": "UI Khách"
+    },
+    "tractionProxy": "URL Proxy Traction"
+  },
+  "session": {
+    "countdown": "Bạn sẽ bị đăng xuất trong { seconds } giây...",
+    "countdownHeader": "Phiên đang hết hạn",
+    "timeoutHeader": " ",
+    "timeoutMessage": "Phiên của bạn đã hết hạn do không hoạt động và bạn đã bị đăng xuất. Vui lòng nhập lại thông tin đăng nhập của bạn."
+  },
+  "status": {
+    "email": "Nhập địa chỉ Email của yêu cầu",
+    "reservationId": "Nhập ID đặt chỗ của bạn",
+    "submit": "Kiểm tra trạng thái"
+  },
+  "tenant": {
+    "profile": {
+      "tenantProfile": "Hồ sơ"
+    },
+    "settings": {
+      "acapyAutoAcceptInvites": "Tự động chấp nhận lời mời",
+      "acapyAutoAcceptRequests": "Tự động chấp nhận yêu cầu",
+      "acapyAutoPingConnection": "Tự động ping Liên Kết",
+      "acapyAutoRequestEndorsement": "Tự động yêu cầu chứng thực",
+      "acapyAutoRespondCredentialOffer": "Tự động phản hồi đề nghị chứng chỉ",
+      "acapyAutoRespondCredentialRequest": "Tự động phản hồi yêu cầu chứng chỉ",
+      "acapyAutoRespondMessages": "Tự động phản hồi tin nhắn",
+      "acapyAutoVerifyPresentation": "Tự động xác minh bản trình bày",
+      "acapyAutoWriteTransactions": "Tự động ghi giao dịch được chứng thực",
+      "acapyCreateRevocationTransactions": "Tạo giao dịch thu hồi",
+      "acapyEndorserRole": "Vai trò người chứng thực",
+      "acapyHelpAutoAcceptInvites": "ACAPY_AUTO_ACCEPT_INVITES - Tự động chấp nhận lời mời mà không cần kích hoạt sự kiện webhook hoặc chờ yêu cầu quản trị.",
+      "acapyHelpAutoAcceptRequests": "ACAPY_AUTO_ACCEPT_REQUESTS - Tự động chấp nhận yêu cầu Liên Kết mà không cần kích hoạt sự kiện webhook hoặc chờ yêu cầu quản trị.",
+      "acapyHelpAutoPingConnection": "ACAPY_AUTO_PING_CONNECTION - Tự động gửi ping tin cậy ngay sau khi phản hồi Liên Kết được chấp nhận. Một số đại lý yêu cầu điều này trước khi đánh dấu Liên Kết là 'hoạt động'",
+      "acapyHelpAutoRequestEndorsement": "ACAPY_AUTO_REQUEST_ENDORSEMENT - Đối với tác giả, chỉ định liệu tự động yêu cầu chứng thực cho tất cả giao dịch. (Nếu không được chỉ định, bộ điều khiển phải gọi thao tác yêu cầu chứng thực cho mỗi giao dịch.)",
+      "acapyHelpAutoRespondCredentialOffer": "ACAPY_AUTO_RESPOND_CREDENTIAL_OFFER - Tự động phản hồi đề nghị chứng chỉ Indy với yêu cầu chứng chỉ",
+      "acapyHelpAutoRespondCredentialRequest": "ACAPY_AUTO_RESPOND_CREDENTIAL_REQUEST - Tự động phản hồi yêu cầu chứng chỉ với chứng chỉ tương ứng",
+      "acapyHelpAutoRespondMessages": "ACAPY_AUTO_RESPOND_MESSAGES - Tự động phản hồi tin nhắn cơ bản cho thấy tin nhắn đã được nhận",
+      "acapyHelpAutoVerifyPresentation": "ACAPY_AUTO_VERIFY_PRESENTATION - Tự động xác minh bản trình bày khi nó được nhận.",
+      "acapyHelpAutoWriteTransactions": "ACAPY_AUTO_WRITE_TRANSACTIONS - Đối với tác giả, chỉ định liệu tự động ghi bất kỳ giao dịch nào được chứng thực. (Nếu không được chỉ định, bộ điều khiển phải gọi thao tác ghi giao dịch cho mỗi giao dịch.)",
+      "acapyHelpCreateRevocationTransactions": "ACAPY_CREATE_REVOCATION_TRANSACTIONS - Đối với tác giả, chỉ định liệu tự động tạo giao dịch cho sổ đăng ký thu hồi của một chứng chỉ. (Nếu không được chỉ định, bộ điều khiển phải gọi các điểm cuối cần thiết để tạo sổ đăng ký thu hồi và gán cho chứng chỉ.)",
+      "acapyHelpEndorserRole": "ACAPY_ENDORSER_ROLE - Chỉ định vai trò ('tác giả' hoặc 'người chứng thực') mà đại lý này sẽ tham gia. Tác giả sẽ yêu cầu chứng thực giao dịch từ người chứng thực. Người chứng thực sẽ chứng thực giao dịch từ tác giả, và có thể ghi giao dịch của riêng mình vào sổ cái. Nếu không có vai trò (hoặc 'không') được chỉ định thì giao thức chứng thực sẽ không được sử dụng và đại lý này sẽ ghi giao dịch vào sổ cái trực tiếp.",
+      "acapyHelpInvitePublic": "ACAPY_INVITE_PUBLIC - Cờ chỉ định lời mời được tạo nên công khai.",
+      "acapyHelpLogLevel": "ACAPY_LOG_LEVEL - Chỉ định một mức độ ghi nhật ký tùy chỉnh.",
+      "acapyHelpMonitorPing": "ACAPY_MONITOR_PING - Gửi webhook khi một ping được gửi hoặc nhận.",
+      "acapyHelpNotifyRevocation": "ACAPY_NOTIFY_REVOCATION - Chỉ định rằng aca-py sẽ thông báo cho người nhận chứng chỉ khi thu hồi một chứng chỉ mà nó đã phát hành.",
+      "acapyHelpPublicInvites": "ACAPY_PUBLIC_INVITES - Gửi lời mời sử dụng DID công khai cho đại lý, và nhận yêu cầu Liên Kết được yêu cầu bởi lời mời sử dụng DID công khai. Mặc định",
+      "acapyInvitePublic": "Lời mời được tạo nên công khai",
+      "acapyLogLevel": "Mức độ ghi nhật ký",
+      "acapyMonitorPing": "Theo dõi Ping",
+      "acapyNotifyRevocation": "Thông báo về việc thu hồi",
+      "acapyPublicInvites": "Gửi lời mời sử dụng DID công khai",
+      "auto": "Cờ tự động",
+      "extraSettings": "Cài đặt ACA-Py thêm",
+      "tenantWalletSettings": "Cài đặt ví"
+    }
+  },
+  "tenants": {
+    "checkIn": "Nhận khách",
+    "search": "Tìm kiếm",
+    "settings": {
+      "canBecomeIssuer": "Khách có thể trở thành người phát hành, tức là Liên Kết với người chứng thực và đăng ký DID",
+      "canConnectEndorser": "Khách được phép Liên Kết với người chứng thực",
+      "canRegisterDid": "Khách được phép đăng ký DID công khai",
+      "confirmDeletion": "Để xác nhận, hãy nhập \"{tenantName}\" vào ô dưới đây",
+      "confirmDeletionIncorrect": "Tên khách không chính xác. Vui lòng xác nhận tên chính xác trước khi xóa.",
+      "confirmDeletionSuccess": "Khách {0} đã được đánh dấu xóa thành công",
+      "deleteTenant": "Xóa khách",
+      "editSettings": "Chỉnh sửa cấu hình khách",
+      "enableLedgerSwitch": "Khách có thể chuyển đổi người chứng thực/sổ cái",
+      "endorserAlias": "Bí danh người chứng thực:",
+      "ledgerName": "Tên sổ cái:",
+      "restoreConfirm": "Khôi phục khách {0}",
+      "restoreSuccess": "Khách {0} đã được khôi phục thành công",
+      "restoreTenant": "Khôi phục khách",
+      "success": "Cấu hình khách đã được cập nhật"
+    },
+    "tenants": "Khách"
+  },
+  "verifier": {
+    "attributeRestrictionsSatisfied": "Tất cả các hạn chế thuộc tính đã được thỏa mãn",
+    "comingSoon": "Sắp ra mắt",
+    "contactAlias: ": "Bí danh Liên Kết: ",
+    "credentialHeldBy": "Chứng chỉ được giữ bởi",
+    "credentialTamperFree ": "Chứng chỉ không bị can thiệp ",
+    "credentialValid": "Chứng chỉ hợp lệ",
+    "presentationShouldHaveStatus": "Đây không phải là thành phần bạn đang tìm kiếm, trình bày nên có trạng thái='đã xác minh'",
+    "status: ": "Trạng thái",
+    "updatedAt": "Đã cập nhật lúc",
+    "verifications": "Danh sách yêu cầu xác minh"
+  },
+  "verify": {
+    "autoVerify": "Tự động xác minh",
+    "autoVerifyHelp": "Lựa chọn xác minh để tự động xác minh bằng chứng",
+    "comment": "Bình luận tùy chọn",
+    "connection": "Liên Kết",
+    "copyRequest": "Sao chép yêu cầu xác minh hiện có",
+    "createRequest": "Tạo yêu cầu xác minh",
+    "delete": "Xóa hồ sơ trao đổi xác minh",
+    "deleteConfirmation": "Bạn có chắc chắn muốn xóa hồ sơ trao đổi trình bày này không?",
+    "deleteSuccess": "Hồ sơ trao đổi trình bày đã được xóa thành công",
+    "presentationRequestBody": "Yêu cầu chứng minh",
+    "verification": "Xác minh",
+    "verifications": "Các xác minh danh tính"
+  }
+}

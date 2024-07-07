@@ -3,7 +3,7 @@
     <div class="center-boxed">
     </div>
     <div class="mt-3 mb-3 font-bold text-2xl">
-      <span class="text-900">{{ $t('dashboard.greeting') }}</span>
+      <span class="text-900">Cơ sở giáo dục</span>
     </div>
   </div>
 </template>

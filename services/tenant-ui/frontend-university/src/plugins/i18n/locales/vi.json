@@ -242,14 +242,14 @@
   "dashboard": {
     "backToDashboard": "Quay lại trang chủ",
     "dashboard": "Trang chủ",
-    "greeting": "Cơ sở giáo dục"
+    "greeting": "Trang chủ"
   },
   "holder": {
     "holder": "Người giữ"
   },
   "home": {
     "dashboard": "Trang chủ",
-    "greeting": "Cơ sở giáo dục",
+    "greeting": "Trang chủ",
     "login": {
       "id": "ID Ví",
       "secret": "Khóa Ví",
